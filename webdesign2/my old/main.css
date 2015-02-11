@@ -1,0 +1,104 @@
+.page{
+	margin: 0 auto
+	width: 100%;
+}
+
+.my_portfolio h1 {
+	text-align: center;
+}
+.main_nav ul li{
+	float:left;
+	list-style: none;
+	padding: 8px;
+}
+.main_nav ul{
+	height: 30px;
+	width: 345px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.website_box {
+	background: black;
+	color:white;
+}
+
+.services li{
+	float:left;
+	list-style: none;
+	padding: 0px;
+	width: 33%;
+}
+.services button{
+	display: block;
+	width: 120px;
+	margin: 0 auto;
+}
+
+.my_portfolio_sm h4 {
+	text-align: center;
+}
+
+.portfolio_insides li{
+	float:left;
+	list-style: none;
+	padding: 0px;
+	width: 33%;
+}
+
+.portfolio_insides button{
+	display: block;
+	width: 120px;
+	margin: 0 auto;
+}
+
+.blog_header h4{
+	text-align: center;
+	padding-top: 180px;
+}
+
+.blog_insides li{
+	float:left;
+	list-style: none;
+	padding: 0px;
+	width: 50%;
+}
+
+.website_header h4{
+	text-align: left;
+	padding-top: 0px;
+}
+
+.website_insides li{
+	float:left;
+	padding: 0px;
+	width: 33%;
+	margin: 0 auto;
+}
+.favorite_developer_header h4{
+	text-align: left;
+	padding-top: 0px;
+}
+
+.favorite_developer_insides li{
+	float:left;
+	padding: 0px;
+	width: 33%;
+	margin: 0 auto;
+}
+.Find_me_online h4{
+	text-align: left;
+	padding-top: 0px;
+}
+
+.find_me_online_insides li{
+	float:left;
+	padding: 0px;
+	width: 33%;
+	margin: 0 auto;
+}
+
+
+
+
+

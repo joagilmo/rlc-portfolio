@@ -1,0 +1,72 @@
+.page {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.navigation {
+	margin: 0 auto;
+	padding: 0;
+	max-width: 390px;
+}
+
+.navigation li {
+	float: left;
+}
+
+.navigation li a {
+	padding: 10px;
+}
+
+ul.navigation li {
+	display: inline;
+}
+
+.centertext {
+	text-align: center;
+}
+
+.welcome {
+	text-align: center;
+	background-color: #952C2C;
+	color: #FFF;
+}
+
+h1, h2.centertext {
+	font-family: 'Lobster Two', cursive;
+	font-weight: 700;
+	color: #952C2C;
+}
+
+.third {
+	width: 33%;
+	float: left;
+}
+
+.third h2 {
+	font-family: 'Lobster Two', cursive;
+	font-weight: 400;
+}
+
+.half {
+	width: 50%;
+	float: left;
+}
+
+.half h2{
+	font-family: 'Lobster Two', cursive;
+	font-weight: 400;
+}
+
+
+
+

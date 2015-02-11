@@ -1,0 +1,19 @@
+div class="website_credits">
+	<h4>Website Credits</h4>
+</div>
+
+<div class="website_insides">
+<ul>
+	<li><button type="button">Image from Unsplash</button></li>
+	<li><button type="button">Design from html5up.net</button></li>
+	<li><button type="button">Instructor randjensen.com</button></li>
+</ul>
+
+
+<h3>Favorite Developers</h3>
+<ul>
+	<li><h6><a href="?????">Lorem ipsum dolor sit emt sit veroeros</h6></li></a>
+	<li><h6><a href="?????">Sed et blandit consequat sed thorem blandit>.net</a><h6></li></a>
+	<li><h6><a href="?????">Adipiscing feugiat phasellus sed tempus</a><h6></li></a>
+</ul>
+</ul>
