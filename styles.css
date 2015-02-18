@@ -31,6 +31,15 @@ ul.navigation li {
 	display: inline;
 }
 
+.fa-mobile {
+background-color: #C9c9c9;
+border-radius: 20px;
+padding: 30px;
+color: #FFF;
+font-size: 90px;
+}
+	
+
 .centertext {
 	text-align: center;
 }
