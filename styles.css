@@ -39,6 +39,22 @@ color: #FFF;
 font-size: 90px;
 }
 	
+.fa-rocket {
+background-color: #C9c9c9;
+border-radius: 20px;
+padding: 30px;
+color: #FFF;
+font-size: 90px;
+}
+
+.fa-laptop {
+background-color: #C9c9c9;
+border-radius: 20px;
+padding: 30px;
+color: #FFF;
+font-size: 90px;
+}
+
 
 .centertext {
 	text-align: center;
@@ -66,6 +82,10 @@ h1, h2.centertext {
 	font-weight: 400;
 }
 
+.third img {
+	max-width: 100%
+}
+
 .half {
 	width: 50%;
 	float: left;
@@ -76,6 +96,8 @@ h1, h2.centertext {
 	font-weight: 400;
 }
 
-
+.half img {
+	max-width: 100%
+}
 
 
