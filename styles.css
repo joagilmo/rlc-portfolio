@@ -16,7 +16,7 @@
 .navigation {
 	margin: 0 auto;
 	padding: 0;
-	max-width: 390px;
+	max-width: 2000px;
 }
 
 .navigation li {
@@ -24,35 +24,52 @@
 }
 
 .navigation li a {
-	padding: 10px;
+	padding: 20px;
+	font-size: 60px;
 }
 
 ul.navigation li {
 	display: inline;
 }
 
+a:link {
+font : 11px verdana;
+font-weight : bold;
+text-decoration : underline;
+color : #8F9E28;
+}
+
+a:visited {
+font-weight : bold;
+text-decoration : underline;
+color : #C0C0C0;
+}
+
+a:hover, a:active {
+text-decoration : underline;
+color : #B8C271;
+}
+
+
 .fa-mobile {
 background-color: #C9c9c9;
-border-radius: 20px;
-padding: 30px;
+border-radius: 10px;
+padding: 15px;
 color: #FFF;
-font-size: 90px;
 }
 	
 .fa-rocket {
 background-color: #C9c9c9;
-border-radius: 20px;
-padding: 30px;
+border-radius: 10px;
+padding: 15px;
 color: #FFF;
-font-size: 90px;
 }
 
 .fa-laptop {
 background-color: #C9c9c9;
-border-radius: 20px;
-padding: 30px;
+border-radius: 10px;
+padding: 15px;
 color: #FFF;
-font-size: 90px;
 }
 
 
@@ -60,13 +77,39 @@ font-size: 90px;
 	text-align: center;
 }
 
-.welcome {
+.graphicdesigner {
 	text-align: center;
-	background-color: #952C2C;
+	background-color: #95AE58;
+	color: #FFF;
+	font-family: optima;
+	font-size: 100px;
+}
+
+.whole img {
+	max-width: 100%
+}
+
+.third img {
+	max-width: 100%
+}
+
+
+.graybox {
+	background-color: #999999;
+	border-radius: 20px;
+	padding: 30px;
 	color: #FFF;
 }
 
-h1, h2.centertext {
+h1.centertext {
+	font-family: optima;
+	font-family: 'Lobster Two', cursive;
+	color: #952C2C;
+	font-size: 300px;
+	margin: 0px 0px -15px 0px;
+}
+
+h2.centertext {
 	font-family: 'Lobster Two', cursive;
 	font-weight: 700;
 	color: #952C2C;
@@ -79,8 +122,14 @@ h1, h2.centertext {
 
 .third h2 {
 	font-family: 'Lobster Two', cursive;
-	font-weight: 400;
+	color: #95AE58;
+	font-size: 100px;
 }
+
+.third p {
+	font-size: 60px;
+}
+
 
 .third img {
 	max-width: 100%
