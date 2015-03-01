@@ -83,10 +83,10 @@ h1, h2.centertext {
 }
 
 .third img {
-	max-width: 100%
+	width: 100%
 }
 
-.half {
+.half{
 	width: 50%;
 	float: left;
 }
@@ -97,7 +97,7 @@ h1, h2.centertext {
 }
 
 .half img {
-	max-width: 100%
+	width: 100%
 }
 
 
