@@ -21,15 +21,13 @@
 
 .navigation li {
 	float: left;
+	display: inline;
 }
 
 .navigation li a {
-	padding: 20px;
-	font-size: 60px;
-}
-
-ul.navigation li {
-	display: inline;
+	padding: 1em;
+	font-size: 3em;
+	list-style: none;
 }
 
 a:link {
@@ -49,6 +47,13 @@ a:hover, a:active {
 text-decoration : underline;
 color : #B8C271;
 }
+
+.whole img {
+	width: 100%
+}
+
+
+
 
 
 .fa-mobile {
@@ -77,6 +82,16 @@ color: #FFF;
 	text-align: center;
 }
 
+
+
+
+.centertext h2{
+	font-size: 6em;
+	font-family: 'Lobster Two', cursive;
+	color: #952C2C;
+}
+
+
 .graphicdesigner {
 	text-align: center;
 	background-color: #95AE58;
@@ -85,12 +100,15 @@ color: #FFF;
 	font-size: 100px;
 }
 
-.whole img {
-	max-width: 100%
+.portfoliocentertext h2{
+	font-size: 6em;
+	font-family: 'Lobster Two', cursive;
+	color: #952C2C;
 }
 
+
 .third img {
-	max-width: 100%
+	width: 100%
 }
 
 
@@ -109,11 +127,6 @@ h1.centertext {
 	margin: 0px 0px -15px 0px;
 }
 
-h2.centertext {
-	font-family: 'Lobster Two', cursive;
-	font-weight: 700;
-	color: #952C2C;
-}
 
 .third {
 	width: 33%;
@@ -123,16 +136,16 @@ h2.centertext {
 .third h2 {
 	font-family: 'Lobster Two', cursive;
 	color: #95AE58;
-	font-size: 100px;
+	font-size: 6em;
 }
 
 .third p {
-	font-size: 60px;
+	font-size: 3em;
 }
 
 
 .third img {
-	max-width: 100%
+	width: 100%
 }
 
 .half {
@@ -142,11 +155,10 @@ h2.centertext {
 
 .half h2{
 	font-family: 'Lobster Two', cursive;
-	font-weight: 400;
+	font-weight: 6em;
 }
 
 .half img {
-	max-width: 100%
+	width: 100%
 }
-
 
