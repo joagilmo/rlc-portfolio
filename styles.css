@@ -16,43 +16,65 @@
 .navigation {
 	margin: 0 auto;
 	padding: 0;
-	max-width: 390px;
+	max-width: 2000px;
 }
 
 .navigation li {
 	float: left;
-}
-
-.navigation li a {
-	padding: 10px;
-}
-
-ul.navigation li {
 	display: inline;
 }
 
+.navigation li a {
+	padding: 1em;
+	font-size: 3em;
+	list-style: none;
+}
+
+a:link {
+font : 11px verdana;
+font-weight : bold;
+text-decoration : underline;
+color : #8F9E28;
+}
+
+a:visited {
+font-weight : bold;
+text-decoration : underline;
+color : #C0C0C0;
+}
+
+a:hover, a:active {
+text-decoration : underline;
+color : #B8C271;
+}
+
+.whole img {
+	width: 100%
+}
+
+
+
+
+
 .fa-mobile {
 background-color: #C9c9c9;
-border-radius: 20px;
-padding: 30px;
+border-radius: 10px;
+padding: 15px;
 color: #FFF;
-font-size: 90px;
 }
 	
 .fa-rocket {
 background-color: #C9c9c9;
-border-radius: 20px;
-padding: 30px;
+border-radius: 10px;
+padding: 15px;
 color: #FFF;
-font-size: 90px;
 }
 
 .fa-laptop {
 background-color: #C9c9c9;
-border-radius: 20px;
-padding: 30px;
+border-radius: 10px;
+padding: 15px;
 color: #FFF;
-font-size: 90px;
 }
 
 
@@ -60,17 +82,51 @@ font-size: 90px;
 	text-align: center;
 }
 
-.welcome {
+
+
+
+.centertext h2{
+	font-size: 6em;
+	font-family: 'Lobster Two', cursive;
+	color: #952C2C;
+}
+
+
+.graphicdesigner {
 	text-align: center;
-	background-color: #952C2C;
+	background-color: #95AE58;
+	color: #FFF;
+	font-family: optima;
+	font-size: 100px;
+}
+
+.portfoliocentertext h2{
+	font-size: 6em;
+	font-family: 'Lobster Two', cursive;
+	color: #952C2C;
+}
+
+
+.third img {
+	width: 100%
+}
+
+
+.graybox {
+	background-color: #999999;
+	border-radius: 20px;
+	padding: 30px;
 	color: #FFF;
 }
 
-h1, h2.centertext {
+h1.centertext {
+	font-family: optima;
 	font-family: 'Lobster Two', cursive;
-	font-weight: 700;
 	color: #952C2C;
+	font-size: 300px;
+	margin: 0px 0px -15px 0px;
 }
+
 
 .third {
 	width: 33%;
@@ -79,8 +135,14 @@ h1, h2.centertext {
 
 .third h2 {
 	font-family: 'Lobster Two', cursive;
-	font-weight: 400;
+	color: #95AE58;
+	font-size: 6em;
 }
+
+.third p {
+	font-size: 3em;
+}
+
 
 .third img {
 	width: 100%
@@ -93,11 +155,10 @@ h1, h2.centertext {
 
 .half h2{
 	font-family: 'Lobster Two', cursive;
-	font-weight: 400;
+	font-weight: 6em;
 }
 
 .half img {
 	width: 100%
 }
-
 
