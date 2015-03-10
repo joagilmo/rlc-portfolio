@@ -15,8 +15,6 @@
 
 .navigation {
 	margin: 0 auto;
-	padding: 0;
-	max-width: 2000px;
 	text-align: center;
 }
 
@@ -49,6 +47,20 @@ color : #C0C0C0;
 a:hover, a:active {
 text-decoration : underline;
 color : #B8C271;
+}
+
+.verticalLine {
+    border-left: thick solid #ff0000;
+    width; 
+}
+
+.vertical-line {
+  width: 1px;
+  background-color: silver;
+  height: 100%;
+  float: left;
+  border: 2px ridge silver ;
+  border-radius: 2px;
 }
 
 .third .FOMbutton {
@@ -94,8 +106,7 @@ color : #B8C271;
 }.FOMbutton:active {
 	position:relative;
 	top:1px;
-}
-/* This button was generated using CSSButtonGenerator.com */
+} /* This button was generated using CSSButtonGenerator.com */
 
 .half .CRbutton {
 	-moz-box-shadow:inset 0px 1px 0px 0px #c1ed9c;
@@ -181,16 +192,13 @@ color: #FFF;
 	width: 100%
 }
 
-.third img {
-	max-width: 100%
-}
-
 
 .graybox {
-	background-color: #999999;
+	background-color: #F4F4F4;
 	border-radius: 20px;
 	padding: 30px;
-	color: #FFF;
+	color: #000000;
+
 }
 
 h1.centertext {
@@ -205,6 +213,7 @@ h2.centertext {
 	font-family: 'Lobster Two', cursive;
 	font-weight: 20px;
 	color: #952C2C;
+	text-align: center;
 }
 
 
@@ -236,9 +245,25 @@ h2.centertext {
 list-style-type: none;
 }
 
+.thirdsmwhiteboxestop {
+	padding: 10px;
+}
+
+.thirdsmwhiteboxes {
+	background: white;
+	padding: 10px;
+}
+
+
+.halfsmwhiteboxes {
+	padding: 10px;
+}
+
 .half {
 	width: 50%;
 	float: left;
+	background: white;
+	padding: 0px;
 }
 
 .half h2{
@@ -250,4 +275,16 @@ list-style-type: none;
 .half img {
 	max-width: 100%
 }
+
+.halfsmwhiteboxes {
+	background: white;
+	padding: 10px;
+}
+
+.footerwrapper{
+	background: black;
+	padding: 10px;
+
+}
+
 
