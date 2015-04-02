@@ -1,0 +1,9 @@
+.navigation,
+.main-image-area,
+.fa, 
+.thirdsmwhiteboxes img,
+.halfsmwhiteboxes img,
+.footerwrapper
+{
+	display: none!important;
+}
