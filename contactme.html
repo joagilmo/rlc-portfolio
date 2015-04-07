@@ -38,126 +38,152 @@
 
 	<div class="Headword">
 		<h1>Contact Me</h1>
-			<p>If you are interested in having design work done please fill out this form below and submit your information.</p>
+			<p>IFeel free to contact me if you are interesting in having design work done. The best way is to fill out the form below. It will automatically send an email to me and I will promptly respond back.</p>
+
+			<p>If you have general questions the best way to reach me is via email at joagilmo@yahoo.com. I check my email frequently. If you choose to call, please call after 7pm central standard time at 972.775.0685. I will call you back within 48 hours.</p>
 	</div>
 
 	<form action="mailto:joagilmo@yahoo.com" method="get" enctype="multipart/form-data">
 
-		<fieldset>
-			<h2>Your Information</h2>
-				<label>First Name<input type="text" name="firstname"/></label> 
-				<label>Last Name<input type="text" name="lastname"/></label>
-				<label>Address<input type="text" name="address"/></label>
-				<label>City<input type="text" name="city"/></label>
-				<label>State<select name="state">
-					<option>Select State</option>
-						<option>AL</option>
-						<option>AK</option>
-						<option>AZ</option>
-						<option>AR</option>
-						<option>CA</option>
-						<option>CO</option>
-						<option>CT</option>
-						<option>DE</option>
-						<option>DC</option>
-						<option>FL</option>
-						<option>GA</option>
-						<option>HI</option>
-						<option>ID</option>
-						<option>IL</option>
-						<option>IN</option>
-						<option>IA</option>
-						<option>KS</option>
-						<option>LA</option>
-						<option>ME</option>
-						<option>MD</option>
-						<option>MA</option>
-						<option>MI</option>
-						<option>MN</option>
-						<option>MS</option>
-						<option>MO</option>
-						<option>MT</option>
-						<option>NE</option>
-						<option>NV</option>
-						<option>NH</option>
-						<option>NJ</option>
-						<option>NM</option>
-						<option>NY</option>
-						<option>NC</option>
-						<option>ND</option>
-						<option>OH</option>
-						<option>OK</option>
-						<option>OR</option>
-						<option>PA</option>
-						<option>RI</option>
-						<option>SC</option>
-						<option>SD</option>
-						<option>TN</option>
-						<option>TX</option>
-						<option>UT</option>
-						<option>VT</option>
-						<option>VA</option>
-						<option>WA</option>
-						<option>WV</option>
-						<option>WI</option>
-						<option>WY</option>
-						</select></label></p>
+		<div class="Form">
+			<fieldset>
+				<h2>Your Information</h2>
+					<label>First Name<input type="text" name="firstname"/></label> 
+					<label>Last Name<input type="text" name="lastname"/></label>
+					<label>Address<input type="text" name="address"/></label>
+					<label>City<input type="text" name="city"/></label>
+					<label>State<select name="state">
+						<option>Select State</option>
+							<option>AL</option>
+							<option>AK</option>
+							<option>AZ</option>
+							<option>AR</option>
+							<option>CA</option>
+							<option>CO</option>
+							<option>CT</option>
+							<option>DE</option>
+							<option>DC</option>
+							<option>FL</option>
+							<option>GA</option>
+							<option>HI</option>
+							<option>ID</option>
+							<option>IL</option>
+							<option>IN</option>
+							<option>IA</option>
+							<option>KS</option>
+							<option>LA</option>
+							<option>ME</option>
+							<option>MD</option>
+							<option>MA</option>
+							<option>MI</option>
+							<option>MN</option>
+							<option>MS</option>
+							<option>MO</option>
+							<option>MT</option>
+							<option>NE</option>
+							<option>NV</option>
+							<option>NH</option>
+							<option>NJ</option>
+							<option>NM</option>
+							<option>NY</option>
+							<option>NC</option>
+							<option>ND</option>
+							<option>OH</option>
+							<option>OK</option>
+							<option>OR</option>
+							<option>PA</option>
+							<option>RI</option>
+							<option>SC</option>
+							<option>SD</option>
+							<option>TN</option>
+							<option>TX</option>
+							<option>UT</option>
+							<option>VT</option>
+							<option>VA</option>
+							<option>WA</option>
+							<option>WV</option>
+							<option>WI</option>
+							<option>WY</option>
+							</select></label></p>
 
-				<label>Zip Code<input type="text" name="zip" /></label>
-				<label>Email Address<input type="email" name="email" required/></label>
-				<label>Home Phone<input type="tel" name="tel" id="tel"/></label>
-				<label>Cell Phone<input type="tel" name="cellphone" /></label>
+					<label>Zip Code<input type="text" name="zip" /></label>
+					<label>Email Address<input type="email" name="email" required/></label>
+					<label>Home Phone<input type="tel" name="tel" id="tel"/></label>
+					<label>Cell Phone<input type="tel" name="cellphone" /></label>
+				</fieldset>
+		</div>
+
+
+		<div class="Form">
+			<fieldset>
+				<h2>Project Information</h2>
+					<p> What type of project(s) you would like designed?</p>
+						<ul>  
+							<li><input type="checkbox" name="projecttype" value="Brochure" />Brochure</li>
+							<li><input type="checkbox" name="projecttype" value="Poster" />Poster</li>
+							<li><input type="checkbox" name="projecttype" value="Invitation" />Invitation</li>
+							<li><input type="checkbox" name="projecttype" value="Flyer" />Flyer</li>
+							<li><input type="checkbox" name="projecttype" value="Report" />Report</li>
+							<li><input type="checkbox" name="projecttype" value="Logo" />Logo</li>
+						</ul>
+		</div>				
+
+							<p>Please describe in detail how you want your project(s) designed</p>
+								<textarea name="projectdesigned" rows="10" cols="50"></textarea>
+
+							<p>Please upload any reference files that will help me understand how you want your project(s) designed</p>
+								<input type="file" name="file"></fieldset>
 			</fieldset>
 
-	<fieldset>
-		<h2>Project Information</h2>
-			<p> What type of project(s) you would like designed?</p>
-				<ul>  
-					<li><input type="checkbox" name="projecttype" value="Brochure" />Brochure</li>
-					<li><input type="checkbox" name="projecttype" value="Poster" />Poster</li>
-					<li><input type="checkbox" name="projecttype" value="Invitation" />Invitation</li>
-					<li><input type="checkbox" name="projecttype" value="Flyer" />Flyer</li>
-					<li><input type="checkbox" name="projecttype" value="Report" />Report</li>
-					<li><input type="checkbox" name="projecttype" value="Logo" />Logo</li>
-					</ul>
 
-			<p>Please describe in detail how you want your project(s) designed</p>
-				<textarea name="projectdesigned" rows="10" cols="50"></textarea>
-
-			<p>Please upload any reference files that will help me understand how you want your project(s) designed</p>
-				<input type="file" name="file"></fieldset>
-
-			<p>What is the best way to contact you about your project(s)?</p>
-
-				<ul>
-				    <li><input type="radio" name="projectcontact" value="email" />Email</li>
-					<li><input type="radio" name="projectcontact" value="homephone" />Home Phone</li>
-				    <li><input type="radio" name="projectcontact" value="cellphone" />Cell Phone</li>
-				</ul>
-
-			<input type="submit" value="Submit Information" />
-			<input type="reset" value="Clear Information" />
-			<input type="hidden" name="timestamp" value="dateime=2014-03-31" />
+		<div class="Form">
+			<fieldset>
+					<p>What is the best way to contact you about your project(s)?</p>
+							<ul>
+							    <li><input type="radio" name="projectcontact" value="email" />Email</li>
+								<li><input type="radio" name="projectcontact" value="homephone" />Home Phone</li>
+							    <li><input type="radio" name="projectcontact" value="cellphone" />Cell Phone</li>
+							</ul>
+								<input type="submit" value="Submit Information" />
+								<input type="reset" value="Clear Information" />
+								<input type="hidden" name="timestamp" value="dateime=2014-03-31" />
+			</fieldset>
+		</div>	
 
 	</form>
 
 	<div class = "footerwrapper cf">
 	<footer>
 		<div class="third">
-			<h2>Find Me Online</h2>
+			<h2>Contact Information</h2>
 			<ul>
-				<li><a href="">Facebook</a></li>
-				<li><a href="">LinkedIn</a></li>
-				<li><a href="">Coroflot</a></li>
+				<li>Joy Gilmore</li>
+				<li>joagilmo@yahoo.com</li>
+				<li>972.775.0685</li>
 			</ul>
 		</div>
 		
 		<div class="third">
-			<h2>Email</h2>
-			<a href="">joagilmo@yahoo.com</a>
+			<h2>Find Me Online</h2>
+			<ul>
+				<li><a href="https://www.pinterest.com/joagilmo">Pinterest</a></li>
+				<li><a href="https://www.linkedin.com/pub/joy-gilmore-graphic-designer/9/732/2b6">Linked-In</a></li>
+			</ul>
+		</div>
+		
+		<div class="third">
+			<h2>?????</h2>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="aboutme.html">About Me</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="contactme.html">Contact Me</a></li>
 		</div>
 
-</footer>
+	</footer>
+	</div>
+
+</body>
+</html>
 
 
 

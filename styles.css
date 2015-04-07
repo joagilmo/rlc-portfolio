@@ -49,142 +49,6 @@ text-decoration : underline;
 color : #B8C271;
 }
 
-.verticalLine {
-    border-left: thick solid #ff0000;
-    width; 
-}
-
-.vertical-line {
-  width: 1px;
-  background-color: silver;
-  height: 100%;
-  float: left;
-  border: 2px ridge silver ;
-  border-radius: 2px;
-}
-
-.third .FOMbutton {
-	-moz-box-shadow:inset 0px 1px 0px 0px #c1ed9c;
-	-webkit-box-shadow:inset 0px 1px 0px 0px #c1ed9c;
-	box-shadow:inset 0px 1px 0px 0px #c1ed9c;
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #9dce2c), color-stop(1, #8cb82b) );
-	background:-moz-linear-gradient( center top, #9dce2c 5%, #8cb82b 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9dce2c', endColorstr='#8cb82b');
-	background-color:#9dce2c;
-	-webkit-border-top-left-radius:0px;
-	-moz-border-radius-topleft:0px;
-	border-top-left-radius:0px;
-	-webkit-border-top-right-radius:0px;
-	-moz-border-radius-topright:0px;
-	border-top-right-radius:0px;
-	-webkit-border-bottom-right-radius:0px;
-	-moz-border-radius-bottomright:0px;
-	border-bottom-right-radius:0px;
-	-webkit-border-bottom-left-radius:0px;
-	-moz-border-radius-bottomleft:0px;
-	border-bottom-left-radius:0px;
-	text-indent:0;
-	border:1px solid #83c41a;
-	display:inline-block;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:13px;
-	font-weight:bold;
-	font-style:normal;
-	height:40px;
-	line-height:40px;
-	width:100px;
-	text-decoration:none;
-	text-align:center;
-	text-shadow:1px 1px 0px #689324;
-}
-.FOMbutton:hover {
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8cb82b), color-stop(1, #9dce2c) );
-	background:-moz-linear-gradient( center top, #8cb82b 5%, #9dce2c 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8cb82b', endColorstr='#9dce2c');
-	background-color:#8cb82b;
-}.FOMbutton:active {
-	position:relative;
-	top:1px;
-} /* This button was generated using CSSButtonGenerator.com */
-
-.half .CRbutton {
-	-moz-box-shadow:inset 0px 1px 0px 0px #c1ed9c;
-	-webkit-box-shadow:inset 0px 1px 0px 0px #c1ed9c;
-	box-shadow:inset 0px 1px 0px 0px #c1ed9c;
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #9dce2c), color-stop(1, #8cb82b) );
-	background:-moz-linear-gradient( center top, #9dce2c 5%, #8cb82b 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9dce2c', endColorstr='#8cb82b');
-	background-color:#9dce2c;
-	-webkit-border-top-left-radius:0px;
-	-moz-border-radius-topleft:0px;
-	border-top-left-radius:0px;
-	-webkit-border-top-right-radius:0px;
-	-moz-border-radius-topright:0px;
-	border-top-right-radius:0px;
-	-webkit-border-bottom-right-radius:0px;
-	-moz-border-radius-bottomright:0px;
-	border-bottom-right-radius:0px;
-	-webkit-border-bottom-left-radius:0px;
-	-moz-border-radius-bottomleft:0px;
-	border-bottom-left-radius:0px;
-	text-indent:0;
-	border:1px solid #83c41a;
-	display:inline-block;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:13px;
-	font-weight:bold;
-	font-style:normal;
-	height:40px;
-	line-height:40px;
-	width:126px;
-	text-decoration:none;
-	text-align:center;
-	text-shadow:1px 1px 0px #689324;
-}
-.CRbutton:hover {
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8cb82b), color-stop(1, #9dce2c) );
-	background:-moz-linear-gradient( center top, #8cb82b 5%, #9dce2c 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8cb82b', endColorstr='#9dce2c');
-	background-color:#8cb82b;
-
-}.CRbutton:active {
-	position:relative;
-	top:1px;
-}
-
-.fa.fa-mobile {
-text-align: center;
-display: block;
-margin: 0 auto;
-background-color: #C9c9c9;
-border-radius: 10px;
-padding: 15px;
-color: #FFF;
-}
-	
-.fa-rocket {
-text-align: center;
-display: block;
-margin: 0 auto;
-background-color: #C9c9c9;
-border-radius: 10px;
-padding: 15px;
-color: #FFF;
-}
-
-.fa-laptop {
-text-align: center;
-display: block;
-margin: 0 auto;
-background-color: #C9c9c9;
-border-radius: 10px;
-padding: 15px;
-color: #FFF;
-}
-
-
 .centertext {
 	text-align: center;
 }
@@ -201,7 +65,10 @@ color: #FFF;
 	width: 100%
 }
 
-
+.form {
+	background-color:#95AE58;
+	color: white;
+}
 .graybox {
 	background-color: #E6E6E6;
 	border-radius: 20px;
@@ -212,7 +79,17 @@ color: #FFF;
 .Headword h1{
 	font-family: verdana;
 	font-size: 50px;
-	color: #952C2C;
+	color: white;
+	background-color: #952C2C;
+}
+
+.placesworked {
+	list-style-type: none;
+	background-color: #95AE58;
+}
+
+.placesworked li {
+	color: white;
 }
 
 h1.centertext {
