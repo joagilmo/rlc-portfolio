@@ -87,11 +87,27 @@ color : #B8C271;
 	list-style-type: none;
 	background-color: #95AE58;
 }
+.form{
+	background-color: #95AE58;
+}
 
 .placesworked li {
 	color: white;
 }
+.content {
+	float:right;
+	width:66.666666666%;
+}
 
+.companies li{
+	float:left;
+	width: 33.333333333%;
+}
+
+.sidebarleft{
+	float:left;
+	width:33.333333333%;
+}
 h1.centertext {
 	font-family: optima;
 	font-family: 'Lobster Two', cursive;
@@ -175,7 +191,13 @@ list-style-type: none;
 .footerwrapper{
 	background: black;
 	padding: 10px;
+	color:white;
+}
 
+.footerlinks li{
+	list-style: none;
+	float:left;
+	margin: 50px 5px 5px 5px;
 }
 
 /*
