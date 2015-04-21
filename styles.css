@@ -69,6 +69,11 @@ color : #B8C271;
 	background-color:#95AE58;
 	color: white;
 }
+
+.submitclear {
+	color: black;
+}
+
 .graybox {
 	background-color: #E6E6E6;
 	border-radius: 20px;
@@ -83,20 +88,86 @@ color : #B8C271;
 	background-color: #952C2C;
 }
 
+.ThankYou{
+	font-size: 13px;
+	color: #952C2C;
+}
+
+
+
 .placesworked {
 	list-style-type: none;
 	background-color: #95AE58;
-}
-.form{
-	background-color: #95AE58;
+	color: white;
+	padding: 10px;
 }
 
 .placesworked li {
 	color: white;
+	font-size: 14px;
 }
+
+.placesworked h1 {
+	font-size: 22px;
+}
+
+
+
+
+
+.sidebarleft{
+	background-color: #4d4d4d;
+	color: white;
+	float: left;
+}
+
+.sidebarleft li{
+	color: white;
+	font-size: 13px;
+	padding: 5px;
+}
+
+
+
+
+.sidebarright{
+	background-color: #4d4d4d;
+	color: white;
+	float:right;
+}
+
+.sidebarright li{
+	color: white;
+	font-size: 13px;
+	padding: 2px;
+	margin-right: 50px;
+}
+
+.sidebarright h3{
+	font-size: 15px;
+	padding: 2px;
+	margin-right: 50px;
+}
+
+
+
+.form{
+	background-color: #95AE58;
+}
+
 .content {
 	float:right;
 	width:66.666666666%;
+}
+
+.content h5{
+	font-size: 25px;
+	color: #95AE58;
+	margin-top: -5px;
+}
+
+.content p{
+	margin-top: 0px;
 }
 
 .companies li{
@@ -200,15 +271,35 @@ list-style-type: none;
 	margin: 50px 5px 5px 5px;
 }
 
+
+
+.accordion-header{
+	background: #424242;
+	color: white;
+	padding: 3px;
+	cursor: pointer;
+}
+
+
+.accordion-header h3{
+ 	padding: 5px;
+ 	margin: 0px;
+ }
+
+.accordion-content {
+	background: #eee;
+	display: none;
+}
+
+.accordion-header:hover{
+	background: #222;
+}
+
+
 /*
 * Media Queries
 */
 
-@media (max-width: 600px) {
-	.fa-3x, 
-	.fa-5x {
-		font-size: 2em;
-}
 
 
 @media (max-width: 600px) {
@@ -223,5 +314,14 @@ list-style-type: none;
 		font-size: 10px;
 }
 
+@media (max-width: 600px) {
+	.placesworked li{
+		font-size: 12px;
+	}	
+
+@media (max-width: 400px) {
+	.footerlinks ul{
+		font-size: 4px;
+	}	
 
 
