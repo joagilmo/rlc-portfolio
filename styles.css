@@ -13,6 +13,11 @@
   clear: both;
 }
 
+
+/*
+* Navigation
+*/
+
 .navigation {
 	margin: 0 auto;
 	text-align: center;
@@ -49,6 +54,13 @@ text-decoration : underline;
 color : #B8C271;
 }
 
+/*
+* Navigation
+*/
+
+
+
+
 .centertext {
 	text-align: center;
 }
@@ -63,15 +75,6 @@ color : #B8C271;
 
 .whole img {
 	width: 100%
-}
-
-.form {
-	background-color:#95AE58;
-	color: white;
-}
-
-.submitclear {
-	color: black;
 }
 
 .graybox {
@@ -95,6 +98,9 @@ color : #B8C271;
 
 
 
+/*
+* About Me
+*/
 .placesworked {
 	list-style-type: none;
 	background-color: #95AE58;
@@ -110,15 +116,54 @@ color : #B8C271;
 .placesworked h1 {
 	font-size: 22px;
 }
+/*
+* About Me
+*/
+
+
+
+/*
+* Gallery
+*/
+
+.contentleft {
+	float:left;
+	width:66.666666666%;
+}
+
+.sidebarright{
+	background-color: #4d4d4d;
+	color: white;
+	float: right;
+	width:33.333333333%;
+}
+
+.sidebarright li{
+	color: white;
+	font-size: 13px;
+	padding: 5px;
+}
+
+.sidebarright h3{
+	font-size: 18px;
+	padding: 10px;
+}
+/*
+* Gallery
+*/
 
 
 
 
+/*
+* About Me
+*/
 
 .sidebarleft{
 	background-color: #4d4d4d;
 	color: white;
 	float: left;
+	width: 33.333333333%;
 }
 
 .sidebarleft li{
@@ -126,58 +171,62 @@ color : #B8C271;
 	font-size: 13px;
 	padding: 5px;
 }
-
-
-
-
-.sidebarright{
-	background-color: #4d4d4d;
-	color: white;
-	float:right;
-}
-
-.sidebarright li{
-	color: white;
-	font-size: 13px;
-	padding: 2px;
-	margin-right: 50px;
-}
-
-.sidebarright h3{
-	font-size: 15px;
-	padding: 2px;
-	margin-right: 50px;
-}
-
-
-
-.form{
-	background-color: #95AE58;
-}
-
-.content {
+.contentright {
 	float:right;
 	width:66.666666666%;
 }
 
-.content h5{
+.contentright h5{
 	font-size: 25px;
 	color: #95AE58;
 	margin-top: -5px;
-}
-
-.content p{
-	margin-top: 0px;
 }
 
 .companies li{
 	float:left;
 	width: 33.333333333%;
 }
+/*
+* About Me
+*/
 
-.sidebarleft{
-	float:left;
-	width:33.333333333%;
+
+
+
+
+
+/*
+* Gallery, About me
+*/
+.contentright p
+.contentleft p {
+	margin-top: 0px;
+}
+
+
+
+
+
+/*
+* Contact Me - form
+*/
+
+.form {
+	background-color:#95AE58;
+	color: white;
+}
+
+.submitclear {
+	color: black;
+}
+
+/*
+* Contact Me - form
+*/
+
+
+.centertext p {
+	font-weight: 5px;
 }
 h1.centertext {
 	font-family: optima;
@@ -195,9 +244,6 @@ h2.centertext {
 }
 
 
-.centertext p {
-	font-weight: 5px;
-}
 
 .third {
 	width: 33%;
@@ -259,6 +305,11 @@ list-style-type: none;
 	padding: 10px;
 }
 
+
+/*
+* Footer
+*/
+
 .footerwrapper{
 	background: black;
 	padding: 10px;
@@ -272,14 +323,13 @@ list-style-type: none;
 }
 
 
-
+/*
 .accordion-header{
 	background: #424242;
 	color: white;
 	padding: 3px;
 	cursor: pointer;
 }
-
 
 .accordion-header h3{
  	padding: 5px;
@@ -294,6 +344,10 @@ list-style-type: none;
 .accordion-header:hover{
 	background: #222;
 }
+*/
+
+
+
 
 
 /*
