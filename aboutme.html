@@ -45,6 +45,7 @@
 					</div>
 					
 			<div class="contentright">
+				<div class="inner">
 								<h5>Hi there!</h5>
 								 <p>My name is Joy Gilmore. I am a multi-disciplinary freelance graphic designer, working with all different types of clients.  My specialty is print, campaign design, and brand & identity design. I love working with new clients and I am always willing to take on new projects!</p>
 
@@ -84,6 +85,7 @@
 								<li>Texas Pediatric Surgery Center</li>
 							</ul>
 							</div>
+				</div>
 			</div>
 						
 					<div class="sidebarleft">
@@ -97,10 +99,6 @@
 							<li>I am addicted to Netflix.</li>
 							<li>I always listen to music when designing.</li>
 							<li>I have been artsy my whole life</li>
-							<li>I have been artsy my whole life</li>
-
-
-
 
 						</ul>
 					</div>
@@ -136,6 +134,20 @@
 
 	</footer>
 	</div>
+
+<script>
+	var sidebarHeight = function() {
+		var sidebar = document.querySelector('.sidebarleft');
+		var content = document.querySelector('.contentright');
+		var h = content.offsetHeight;
+
+		sidebar.style.height = h + 'px';
+	}
+	sidebarHeight();
+	window.onresize=function() {
+		sidebarHeight();
+	};
+</script>
 
 </body>
 </html>
